@@ -1,0 +1,31 @@
+# Environnements virtuels
+whisper_env/
+venv/
+env/
+*.egg-info/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Fichiers de sortie générés automatiquement par le pipeline
+intent_*.json
+mistral_resultat_*.json
+placement_*.json
+metriques_rapport.json
+
+# État et cache (régénérés à l'exécution, dépendent de la session)
+etat_systeme.json
+embeddings_cache.json
+placement_knowledge.json
+
+# Secrets / URLs personnelles
+rag_url.txt
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
